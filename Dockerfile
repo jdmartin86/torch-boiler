@@ -1,5 +1,5 @@
 # Start a base python image
-FROM python:3.9
+FROM nvcr.io/nvidia/pytorch:25.01-py3-igpu
 
 # The /app directory is as the main application directory
 WORKDIR /app
